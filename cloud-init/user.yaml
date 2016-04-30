@@ -1,0 +1,7 @@
+#cloud-config
+users:
+- default
+- name: colstrom
+  gecos: Chris Olstrom
+  sudo: ALL=(ALL) NOPASSWD:ALL
+  ssh-import-id: gh:colstrom
