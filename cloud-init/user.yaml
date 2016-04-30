@@ -3,5 +3,8 @@ users:
 - default
 - name: colstrom
   gecos: Chris Olstrom
+  shell: /usr/bin/fish
   sudo: ALL=(ALL) NOPASSWD:ALL
   ssh-import-id: gh:colstrom
+packages:
+- fish
